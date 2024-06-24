@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+class Person{
+    String name;
+    Integer age;
+    
+    Person(String name, Integer age){
+        this.name = name;
+        this.age = age;
+    }
+}
+class ConstructorExample1 {
+	public static void main (String[] args) {
+	    
+	    Scanner scanner = new Scanner(System.in);
+	    System.out.print("Enter your name :: ");
+	    String name = scanner.nextLine();
+	    System.out.print("Enter age :: ");
+	    Integer age = scanner.nextInt();
+	   
+	    Person personObj = new Person(name, age);
+	    
+        System.out.println("name is : " + personObj.name);
+        System.out.println("age is : " + personObj.age);
+
+	}
+}
