@@ -1,18 +1,22 @@
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.Iterator;
 
-public class Main {
+public class ArrayListExample {
     public static void main(String[] args) {
-        List<String>list=new ArrayList<>();
+        ArrayList<String> list = new ArrayList<>();
         list.add("Apple");
-        list.add("Orange");
-        list.add("Grapes");
+        list.add("Banana");
+        list.add("Cherry");
 
-        Collections.sort(list);
-
-        for(String fruit : list) {
+        System.out.println("Using for-each loop:");
+        for (String fruit : list) {
             System.out.println(fruit);
+        }
+
+        System.out.println("Using Iterator:");
+        Iterator<String> iterator = list.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
         }
     }
 }
