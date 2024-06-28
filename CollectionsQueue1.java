@@ -3,7 +3,7 @@ import java.util.Queue;
 
 public class TreeMapExample {
     public static void main(String[] args) {
-        Queue<String> queue = new LinkedList<>(); // can implement only with LinkedList, can't implement with ArrayList and vector
+        Queue<String> queue = new LinkedList<>(); // can implement only with LinkedList, PriorityQueue and ArrayDeque. It can't implement with ArrayListector
         queue.add("First");
         queue.add("Second");
         queue.add("Third");
