@@ -1,7 +1,7 @@
 import java.util.Vector;
 import java.util.Iterator;
 
-public class ArrayListExample {
+public class vectorExample {
     public static void main(String[] args) {
         Vector<String> list = new Vector<>();
         list.add("Apple");
