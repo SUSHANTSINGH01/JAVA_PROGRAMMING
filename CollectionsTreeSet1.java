@@ -1,7 +1,7 @@
 import java.util.TreeSet;
 import java.util.Iterator;
 
-public class ArrayListExample {
+public class TreeSetExample {
     public static void main(String[] args) {
         TreeSet<String> set = new TreeSet<>();
         set.add("One");
