@@ -1,7 +1,7 @@
 import java.util.LinkedHashSet;
 import java.util.Iterator;
 
-public class ArrayListExample {
+public class LinkedHashSetExample {
     public static void main(String[] args) {
         LinkedHashSet<String> set = new LinkedHashSet<>();
         set.add("One");
